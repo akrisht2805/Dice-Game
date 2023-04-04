@@ -23,3 +23,8 @@ if(randomNumber1>randomNumber2){
 }else{
     document.querySelector("h1").innerHTML="Draw..!";
 }
+
+const ref_but = document.querySelector('#refresh_button')
+ref_but.addEventListener('click', (e)=>{
+    location.reload()
+})
